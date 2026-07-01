@@ -1,0 +1,221 @@
+html::before {
+  content: 'CodePen ♥ The Web';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+  font-family: monospace;
+  opacity: 0.6;
+  background: rebeccapurple;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #0a0a0a;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0
+}
+nav {
+  background: #111111;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  color: #c9a84c;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  opaddiong: 0;
+  margin: 0;
+}
+nav a {
+  color: white
+  text-decoration: none;
+}
+nav a:hover {
+  color: #c9a84c;
+}
+.hero {
+padding: 100px 40px;
+  max-width: 700px;
+}
+.hero h1 {
+  font-size: 3rem;
+  color: #c9a84c;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+.hero p {
+color: #888;
+  font-size: 1.1rem;
+  margin-buttom: 30px;
+}
+.btn {
+  duisplay: inline-block;
+  background: #c9a84c;
+  color: black;
+  padding; 12px 28px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 3px;
+}
+.btn:hover {
+  background: #e2c87a;
+}
+.services {
+padding; 80px 40px;
+}
+.service h2 {
+  color: #c9a84c;
+  font-size: 2rem;
+  margin-buttom: 40px;
+}
+.services-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card {
+background: #161616;
+border: 1px solid #2a2a2a;
+  padding: 30px;
+  flex: 1;
+  min-width: 200px;
+  border-radius: 4px;
+}
+.card 3 {
+  color: #c9a84c;
+  margin-buttom; 10px;
+}
+.carp p {
+  color: #888;
+  font-size: 0.9rem;
+}
+.contact {
+  padding: 80px 40px;
+}
+.contact h2 {
+  color: #c9a84c;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.contact p {
+  color: #888;
+  margin-bottom: 30px;
+}
+input, textarea {
+  display: block;
+  width: 100%;
+  background; #161616;
+  border: 1px solid #2a2a2a;
+  color: white;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  font-size: 1rem
+}
+textarea {
+height: 120px;
+}
+button {
+background: #c9a84c;
+  color: black;
+  padding: 12px 28px;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.chat-bubble {
+position: fixed;
+bottom: 30px;
+  right: 30px;
+  background: #c9a84c;
+  color: black;
+  width: 60px;
+  height:60px;
+  border-radius: 50px
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+.chat-box {
+position: fixed;
+bottom: 100px;
+  right: 30px;
+  width: 300px;
+  background: #161616;
+  border: 1px solid #2a2a2a;
+  border-radius: 8px;
+  display: none;
+}
+.chat-header {
+  background: #c9a84c;
+  color: b;ak;
+  padding: 12px 15px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  border-radius: 8px 8px 0 0;
+  cursor: pointer;
+}
+.chat-message {
+  padding: 15px;
+  height; 250;
+  overflow-y: auto;
+}
+.bot-msg {
+background: #222;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: white;
+  margin-button: 10px;
+}
+.user-mnsg {
+bckground: #c9a84c;
+color: black;
+padding: 10px;
+  border-radius: 8PX;
+  font-size: 0.5rem;
+  margin-bottom: 10px;
+  textalign: right;
+}
+.chat-input {
+  display: flex;
+  border-top: 1px solid #2a2a2a;
+  padding: 10px;
+  gap: 8px;
+}
+.chat-input input {
+  flex: 1;
+backgroud: #111;
+  border: 1px solid #2a2a2a;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 0.5rem;
+}
+.chat-input button {
+backgroun: #c9a84c;
+color: black;
+  border: none;
+   padding: 8px 12px
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+} 
