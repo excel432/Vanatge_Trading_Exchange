@@ -29,7 +29,7 @@ function getReply(msg) {
   } else if (msg.indexOf('account') !== -1) {
     return 'Fill out the contact form and we will reach out within 24 hours!';
   } else {
-    return 'Thanks! Please fill out our contact form and we will get back to you.';
+    return  'For further assistance please contact our customer care team directly! Whatsapp: +1(561) 325-2198 or Email companiesvantage@gmail.com. We are happy to help!';
   }
 }
 
