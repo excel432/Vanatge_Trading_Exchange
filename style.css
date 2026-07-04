@@ -1,6 +1,6 @@
 html::before {
   html::before {
-    display: none;
+    display: none !
   }
   content: 'CodePen ♥ The Web';
   position: fixed;
