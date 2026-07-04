@@ -1,4 +1,7 @@
 html::before {
+  html::before {
+    display: none;
+  }
   content: 'CodePen ♥ The Web';
   position: fixed;
   inset: 0;
