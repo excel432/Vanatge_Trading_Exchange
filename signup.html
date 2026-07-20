@@ -1,0 +1,31 @@
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-auth.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyCcCUNo_Fe6nYRkQCCfcYzPbF4_8YJQOfg",
+    authDomain: "vantage-trading-exchange.firebaseapp.com",
+    projectId: "vantage-trading-exchange",
+    storageBucket: "vantage-trading-exchange.firebasestorage.app",
+    messagingSenderId: "379005808101",
+    appId: "1:379005808101:web:b6a994e0d4630ade8d130c",
+    measurementId: "G-5J31HW30GT"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const auth = getAuth(app);
+
+  window.loginUser = function () {
+    const email = document.getElementById("email").value;
+    const password = document.getElementById("password").value;
+    const errorMsg = document.getElementById("errorMsg");
+
+    signInWithEmailAndPassword(auth, email, password)
+      .then(() => {
+        window.location.href = "dashboard.html";
+      })
+      .catch(() => {
+        errorMsg.style.display = "block";
+      });
+  };
+</script>
